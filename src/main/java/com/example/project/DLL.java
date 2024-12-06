@@ -13,7 +13,7 @@ public class DLL<T> {
 	}
 
 	public boolean last() {
-		return current.next == null;
+		return current.next == null; 
 	}
 
 	public boolean first() {
