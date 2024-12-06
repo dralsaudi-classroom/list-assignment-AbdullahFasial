@@ -5,7 +5,7 @@ public class LinkedList<T> implements List<T>{
 	private Node<T> current;
 	
     public LinkedList() {
-		head = current = null;
+		head = current = null; 
 	}
 	public boolean empty() {
 		return head == null;
